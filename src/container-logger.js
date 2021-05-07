@@ -61,7 +61,7 @@ class ContainerLogger {
 
     getSysdigArgs() {
         return [
-            '-p%evt.rawtime.s.%evt.rawtime.ns %evt.type', // Sysdig output format (%timestamp %syscallname)
+            '-p%evt.rawtime.s.%evt.rawtime.ns %syscall.type', // Sysdig output format (%timestamp %syscallname)
             `container.id=${this.container_id} and syscall.type!=container and evt.dir=">"` // Log only enter events for container=this.container_id
         ];
     }
