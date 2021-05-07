@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/sysdigdock.js",
+  "scripts": {
+    "start": "node src/sysdigdock.js",
+    "dev": "nodemon src/sysdigdock.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dockerode": "^3.2.1",
+    "express": "^4.17.1"
+  }
+}

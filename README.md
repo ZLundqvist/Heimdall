@@ -1,2 +1,2 @@
 # Heimdall
-A tool to expedite system call logging of Docker containers using Sysdig
+A tool to expedite system call logging of Docker containers for machine-learning purposes using Sysdig
