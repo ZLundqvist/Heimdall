@@ -1,9 +1,9 @@
 {
-  "name": "nodejs",
+  "name": "heimdall",
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "src/sysdigdock.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "node src/sysdigdock.js",
     "dev": "nodemon src/sysdigdock.js"
